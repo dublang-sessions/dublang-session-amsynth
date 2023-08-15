@@ -1,3 +1,27 @@
-#!dublang
+#!supercollider
 
-return 'hello world'
+// add MIDI port to SuperDirt
+// thanks to Alexandre rAngel for the great tip
+
+MIDIClient.init;
+~amsynth1 = MIDIOut.newByName("amsynth", "MIDI IN");
+~dirt.soundLibrary.addMIDI(\amsynth1, ~amsynth1);
+
+#!tidalcycles
+
+d1
+  $ slow 2
+  $ sound "amsynth1" # note "<f f f f c g>"
+
+d2
+  $ slow 2
+  $ off "0.125" (superimpose (|- gain 0.2) . (|- lpf 800))
+  $ slowcat [
+    sound "[~ bd ~  ~ [jazz:7]]",
+    sound "[~ bd ~  ~ [~ ~ bd     ~ jazz:7]]",
+    sound "[~ bd ~  ~ [~ ~ jazz:7 ~ jazz:7]]",
+    sound "[~ ~  bd ~ [~ ~ bd     ~ bd]]"
+  ]
+  # gain 1.2 # shape 0.2
+  # lpf 2000
+
