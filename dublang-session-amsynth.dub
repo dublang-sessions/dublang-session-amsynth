@@ -32,7 +32,8 @@ MIDIClient.init;
 
 d1
   $ slow 2
-  $ sound "amsynth1" # note "<f f f f c g>"
+  $ sound "amsynth1"
+  # note "<f f f f c g>"
 
 d2
   $ rarely (superimpose ((stut 4 0.75 0.25) . (# sound "hh27") . (# n (irand 8)) . (|+ gain 0.4)))
@@ -53,7 +54,11 @@ d3
   $ slow 2
   $ slowcat [
     note "f/2 f? ~ ~ c ~",
-    note "f/3 f? ~ ~ ~ <c g>"
+    note "f/3 f? ~ ~ ~ <c g>",
+    note "f/2 f? ~ ~ c ~",
+    note "f/3 f? ~ ~ ~ <c g>",
+    note "f/3 f? f/3 f? ~ <c*2 g*2>"
   ]
   # sound "bass2"
   # lpf 400
+
