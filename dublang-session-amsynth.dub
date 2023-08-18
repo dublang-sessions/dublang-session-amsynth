@@ -34,8 +34,6 @@ d1
   $ slow 2
   $ sound "amsynth1" # note "<f f f f c g>"
 
-hush
-
 d2
   $ rarely (superimpose ((stut 4 0.75 0.25) . (# sound "hh27") . (# n (irand 8)) . (|+ gain 0.4)))
   $ slow 2
@@ -50,3 +48,5 @@ d2
   # lpf 2000
   # orbit 3 # room 0 # size 0
 
+d3
+  $ sound "bass2"
