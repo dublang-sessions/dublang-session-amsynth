@@ -30,6 +30,8 @@ MIDIClient.init;
 
 ~amsynth1.noteOff(1, 90, veloc: 124)
 
+s.freeAll;
+
 #!tidalcycles
 
 d1
