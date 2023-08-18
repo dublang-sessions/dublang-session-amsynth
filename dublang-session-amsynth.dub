@@ -23,9 +23,9 @@ MIDIClient.init;
 
 ~amsynth1.program(1, 14);
 
-// clavinet
+// clavinet 1
 
-~amsynth1.program(1, "000:000");
+~amsynth1.program(1, 19);
 
 #!tidalcycles
 
