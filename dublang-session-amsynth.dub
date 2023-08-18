@@ -11,6 +11,9 @@ MIDIClient.init;
 
 ~amsynth1.control(1, 7, 120);
 
+0
+~amsynth1.program(1, 2);
+
 #!tidalcycles
 
 d1
