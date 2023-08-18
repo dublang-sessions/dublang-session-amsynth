@@ -51,8 +51,8 @@ d2
 d3
   $ slow 2
   $ slowcat [
-    note "f(2,8) f? ~ ~ c ",
-    note "f(2,8) f? ~ ~ <c g>"
+    note "f/2 f? ~ ~ c ~",
+    note "f/3 f? ~ ~ ~ <c g>"
   ]
   # sound "bass2"
   # lpf 400
