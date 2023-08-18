@@ -7,7 +7,7 @@ MIDIClient.init;
 ~amsynth1 = MIDIOut.newByName("amsynth", "MIDI IN");
 ~dirt.soundLibrary.addMIDI(\amsynth1, ~amsynth1);
 
-~amsynth1.control(1, 7, 1);
+~amsynth1.control(1, 7, 10);
 
 #!tidalcycles
 
