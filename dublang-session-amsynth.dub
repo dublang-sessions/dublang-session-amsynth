@@ -19,6 +19,10 @@ MIDIClient.init;
 
 ~amsynth1.program(1, 58);
 
+// pipe organ 3
+
+~amsynth1.program(1, 14);
+
 // clavinet
 
 ~amsynth1.program(1, "000:000");
