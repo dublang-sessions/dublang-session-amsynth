@@ -9,7 +9,7 @@ MIDIClient.init;
 
 // volume (ctrl = 7, values = 0 to 127)
 
-~amsynth1.control(1, 7, 127);
+~amsynth1.control(1, 7, 100);
 
 #!tidalcycles
 
