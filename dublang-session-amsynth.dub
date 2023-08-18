@@ -49,6 +49,7 @@ d2
   # orbit 3 # room 0 # size 0
 
 d3
+  $ off 0.25 (|- up "-8")
   $ slow 2
   $ slowcat [
     note "f/2 f? ~ ~ c ~",
