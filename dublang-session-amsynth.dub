@@ -13,7 +13,7 @@ MIDIClient.init;
 
 // thunder
 
-~amsynth1.program(1, "002:122");
+~amsynth1.program(1, 122);
 
 // clavinet
 
