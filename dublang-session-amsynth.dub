@@ -63,5 +63,6 @@ d3
   # sound "bass2"
   # lpf 300
   # orbit 3 # room 0.3 # size 0.3
-  # gain 1 # squiz 2.5
+  # gain 0.8 # squiz 2.5
+
 
