@@ -50,7 +50,7 @@ d2
   # orbit 3 # room 0 # size 0
 
 d3
-  $ every 6 ((|+ room 0.4) . (|+ size 0.4))
+  $ every 3 ((|+ room 0.4) . (|+ size 0.4))
   $ off "0.25" (|- up "-2")
   $ slow 2
   $ slowcat [
