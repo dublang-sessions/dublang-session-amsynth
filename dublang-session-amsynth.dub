@@ -49,6 +49,6 @@ d2
   # orbit 3 # room 0 # size 0
 
 d3
-  $ note "f(2,8) f? ~ ~ <c'maj g>"
+  $ note "f(2,8) f? ~ ~ <c g>"
   # sound "bass2"
   # lpf 400
