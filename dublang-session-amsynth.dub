@@ -28,7 +28,7 @@ MIDIClient.init;
 ~amsynth1.program(1, 19);
 
 
-~amsynth1.noteOff(1)
+~amsynth1.noteOff(1);
 
 s.freeAll;
 
