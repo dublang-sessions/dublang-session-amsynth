@@ -48,5 +48,5 @@ d2
   ]
   # gain 1.2 # shape 0.2
   # lpf 2000
-  # orbit 3 # room 0
+  # orbit 3 # room 0 # size 0
 
