@@ -50,4 +50,4 @@ d2
 
 d3
   $ sound "bass2"
-  # lpf 1000
+  # lpf 800
