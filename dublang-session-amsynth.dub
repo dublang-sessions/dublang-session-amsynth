@@ -61,7 +61,7 @@ d3
     note "f/3 f? f/3 f? ~ <c*2 g*2>"
   ]
   # sound "bass2"
-  # lpf 400
+  # lpf 300
   # orbit 3 # room 0.3 # size 0.3
   # gain 1
 
