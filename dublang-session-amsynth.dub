@@ -15,6 +15,10 @@ MIDIClient.init;
 
 ~amsynth1.program(1, 122);
 
+// harp 2
+
+~amsynth1.program(1, 58);
+
 // clavinet
 
 ~amsynth1.program(1, "000:000");
