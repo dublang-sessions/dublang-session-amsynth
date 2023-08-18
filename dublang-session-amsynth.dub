@@ -11,11 +11,11 @@ MIDIClient.init;
 
 ~amsynth1.control(1, 7, 120);
 
-// thunder
+// program (channel = 1, preset = 122 thunder)
 
 ~amsynth1.program(1, 122);
 
-// harp 2
+// program (channel = 1, preset = 58 harp 2)
 
 ~amsynth1.program(1, 58);
 
@@ -26,6 +26,9 @@ MIDIClient.init;
 // clavinet 1
 
 ~amsynth1.program(1, 19);
+
+
+~amsynth1.noteOn(1, 60, veloc: 64)
 
 #!tidalcycles
 
