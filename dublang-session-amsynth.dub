@@ -11,6 +11,12 @@ MIDIClient.init;
 
 ~amsynth1.control(1, 7, 120);
 
+// thunder
+
+~amsynth1.program(1, "002:122");
+
+// clavinet
+
 ~amsynth1.program(1, "000:000");
 
 #!tidalcycles
